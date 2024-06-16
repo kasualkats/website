@@ -1,0 +1,107 @@
+html, body {
+    background-color: rgb(46, 71, 79);
+    font-size: 20px;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    color: white;
+    text-align: left;
+    margin: 0;
+  }
+
+
+  .topBox{
+    background-image: url("1099438.png");
+    background-size: cover;
+    border: 10px solid rgb(121, 121, 121);
+    margin: 0;
+  }
+  #title{
+    margin: 0;
+    font-size: 100px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .address a{
+    color: rgb(255, 251, 0);
+    font-size: 30px;
+    margin: 10px;
+    font-weight: 100;
+    text-align: center;
+  }
+  .address{
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+    font-weight: 100;
+    text-align: center;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 100px;
+    font-weight: 700;
+    text-align: center;
+  }
+  h2 {
+    font-size: 50px;
+    margin: 10px;
+    font-weight: 100;
+    text-align: center;
+  }
+h3 {
+    font-size: 50px;
+    margin: 10px;
+    font-weight: 100;
+    text-align: center;
+    border-bottom: 10px solid white;
+}
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    height:230px;
+  }
+  main {
+    margin-top: 230px  ;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  p{
+    margin: 0;
+    margin-top: 10px;
+  }
+  strong{
+    font-size: 30px;
+    margin: 0;
+    margin-top: 30px;
+  }
+  a{
+    font-size: 50px;
+    margin: 10px;
+    font-weight: 100;
+    text-align: center;
+    font-family: "Comfortaa", sans-serif;
+    color: white;
+    border-radius: 10px;
+    border-width: 10px;
+  }
+
+  a.anchor {
+    display: block;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+  }
+
+
+  .menu {
+    display: flex ;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+
+  }
