@@ -8,6 +8,7 @@ html, body {
     color: white;
     text-align: left;
     margin: 0;
+    scroll-padding-top: 230px;
   }
 
 
@@ -90,12 +91,6 @@ h3 {
     border-width: 10px;
   }
 
-  a.anchor {
-    display: block;
-    position: absolute;
-    top: 0;
-    visibility: hidden;
-  }
 
 
   .menu {
