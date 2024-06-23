@@ -1,5 +1,6 @@
 console.log("Hello");
 
+/*
 
 fetch('https://socialblade.com/youtube/channel/UCQcPOKGlD7tXZst3iGDMt2Q').then(function (response) {
 	if (response.ok) {
@@ -9,12 +10,13 @@ fetch('https://socialblade.com/youtube/channel/UCQcPOKGlD7tXZst3iGDMt2Q').then(f
 }).then(function (text) {
 	console.log(text);
 });
+*/
 
-/*
- fetch('https://kasualkats.github.io/website/', {
+ fetch('https://www.wikipedia.org/', {
     mode: 'no-cors'
   })
     .then(response => {
+
       if (response.ok) {
         console.log('Request successful:', response);
       } else {
@@ -23,6 +25,4 @@ fetch('https://socialblade.com/youtube/channel/UCQcPOKGlD7tXZst3iGDMt2Q').then(f
     })
     .catch(error => {
       console.error('Error:', error);
-    }); 
-
-*/
+    });
